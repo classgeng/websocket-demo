@@ -1,0 +1,26 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  
+  <parent>
+		<groupId>com.iflytek</groupId>
+		<artifactId>websocket-demo</artifactId>
+		<version>${websocket.version}</version>
+	</parent>
+	
+  <artifactId>websocket-web</artifactId>
+  <name>websocket-web</name>
+  <packaging>war</packaging>
+  <url>http://maven.apache.org</url>
+  
+  <dependencies>
+      <dependency>
+          <groupId>javax</groupId>
+          <artifactId>javaee-api</artifactId>
+          <version>7.0</version>
+      </dependency>
+  </dependencies>
+  <build>
+    <finalName>websocket-web</finalName>
+  </build>
+</project>
